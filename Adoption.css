@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, oswald;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.page-title {
+    background-color: #004175;
+color: white;
+font-family: oswald, sans-serif;
+padding: 2rem;
+border-color: #89deef;
+border-width: medium;
+border-style: none none solid none;
+}
+
+.dogs-list {
+    display:inline-block;
+    flex: 1;
+    font: oswald;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.dog-traits {
+    background-color: #89deef;
+color: black;
+font-family: oswald, sans-serif;
+padding: 2rem;
+border-color: #89deef;
+border-width: medium;
+border-style: none none solid none;
+border-radius: 20px;
+}
+
+.dogs {
+    display:inline-block;
+    flex: 1;
+    flex-flow: wrap;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+li {
+    display:inline-block
+}
+
+img {
+    max-width: 400px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #A6A9F0;
+}
